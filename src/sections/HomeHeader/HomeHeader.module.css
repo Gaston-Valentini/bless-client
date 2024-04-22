@@ -28,6 +28,7 @@
 .wave {
     position: absolute;
     bottom: 0;
+    transform: translateY(1px);
 }
 
 @media (max-width: 767px) {
