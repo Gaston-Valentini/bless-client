@@ -33,7 +33,7 @@ export default function Navbar() {
                     </li>
                     <li className={style.linksLink}>
                         <Link to={"/questions"} onClick={switchOpen}>
-                            Preguntas Frecuentes
+                            Preguntas frecuentes
                         </Link>
                     </li>
                     <li className={style.linksLink}>
