@@ -53,6 +53,7 @@
     font-size: 80px;
     color: white;
     background-color: var(--rose);
+    border: 2px solid black;
     border-radius: 50%;
 }
 
