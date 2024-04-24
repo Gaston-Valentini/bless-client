@@ -1,0 +1,35 @@
+.container {
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 2px solid var(--grey);
+    border-radius: 10px;
+}
+
+.data {
+    padding: 20px;
+}
+
+.dataTitle {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--rose);
+}
+
+.dataDescription {
+    font-style: italic;
+    color: var(--grey);
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    box-shadow: -2px 0 5px var(--grey);
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+}

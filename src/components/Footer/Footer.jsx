@@ -32,7 +32,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div className={style.social}>
-                <p className={style.socialTitle}>Suíguenos</p>
+                <p className={style.socialTitle}>Síguenos</p>
                 <ul className={style.socialIcons}>
                     <li>
                         <a href="#">
