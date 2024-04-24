@@ -47,7 +47,7 @@
 .image {
     height: 100%;
     width: 100%;
-    border: 2px solid black;
+    outline: 2px solid black;
 }
 
 .image img {
@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 991px) {
+    .container {
+        padding: 50px 0;
+    }
     .gallery {
         grid-template-rows: 175px 175px;
     }

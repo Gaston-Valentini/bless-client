@@ -8,8 +8,9 @@
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 2px solid var(--rose);
+    border: 2px solid var(--gold);
     border-radius: 10px;
+    box-shadow: 0 2px 4px var(--gold);
 }
 
 .contentData {

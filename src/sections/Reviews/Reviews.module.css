@@ -38,6 +38,8 @@
 .reviews {
     width: 100%;
     max-width: 1000px;
+    border: 2px dashed var(--gold);
+    border-radius: 10px;
 }
 
 .reviews:hover {
