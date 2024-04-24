@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    min-width: 25px;
+    font-size: 70px;
+    transform: translateY(-25px);
+    color: var(--rose);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textQuestion {
+    font-weight: 800;
+}
+
+.textAnswer {
+    color: var(--grey);
+}
