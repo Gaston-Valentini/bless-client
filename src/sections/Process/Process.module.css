@@ -1,0 +1,161 @@
+.container {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.title {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titleMain {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.titleMain p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.titleMain hr {
+    border: 2px solid var(--rose);
+}
+
+.titleText {
+    text-align: center;
+    color: var(--grey);
+}
+
+.process {
+    max-width: 1500px;
+    display: flex;
+}
+
+.processElement {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.processElementTitle {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.processElementTitleText {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.processElementTitleNumber {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 0.8;
+    color: var(--gold);
+}
+
+.processElementText {
+    text-align: right;
+    font-style: italic;
+    color: var(--grey);
+}
+
+.processElementIcon {
+    font-size: 30px;
+    color: var(--rose);
+}
+
+.processDivisor {
+    width: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.processDivisor hr {
+    height: 100%;
+    width: 3px;
+    border: none;
+    background-color: black;
+}
+
+.processDivisor svg {
+    font-size: 100px;
+    transform: translateX(6px);
+    color: var(--rose);
+}
+
+@media (min-width: 580px) and (max-width: 991px) {
+    .container {
+        padding: 50px 20px;
+    }
+    .process {
+        flex-direction: column;
+    }
+    .processElement {
+        padding: 30px 20px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .processElementText {
+        max-width: 500px;
+    }
+    .processElementIcon {
+        min-width: 30px;
+    }
+    .processDivisor {
+        height: 0px;
+        width: 100%;
+        flex-direction: row;
+    }
+    .processDivisor hr {
+        width: 100%;
+        height: 3px;
+        border: none;
+        background-color: black;
+    }
+    .processDivisor svg {
+        transform: rotate(90deg) translateX(6px);
+    }
+}
+
+@media (max-width: 579px) {
+    .container {
+        padding: 50px 20px;
+    }
+    .process {
+        flex-direction: column;
+    }
+    .processElement {
+        padding: 30px 0;
+    }
+    .processDivisor {
+        height: 0px;
+        width: 100%;
+        flex-direction: row;
+    }
+    .processDivisor hr {
+        width: 100%;
+        height: 3px;
+        border: none;
+        background-color: black;
+    }
+    .processDivisor svg {
+        transform: rotate(90deg) translateX(6px);
+    }
+}

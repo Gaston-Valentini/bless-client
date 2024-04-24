@@ -3,6 +3,7 @@ import About from "../../sections/About/About";
 import Services from "../../sections/Services/Services";
 import FreeValoration from "../../sections/FreeValoration/FreeValoration";
 import Reviews from "../../sections/Reviews/Reviews";
+import Process from "../../sections/Process/Process";
 
 export default function HomeView() {
     return (
@@ -12,6 +13,7 @@ export default function HomeView() {
             <Services />
             <FreeValoration />
             <Reviews />
+            <Process />
         </section>
     );
 }
