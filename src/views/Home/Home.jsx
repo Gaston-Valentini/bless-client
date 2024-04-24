@@ -4,6 +4,7 @@ import Services from "../../sections/Services/Services";
 import FreeValoration from "../../sections/FreeValoration/FreeValoration";
 import Reviews from "../../sections/Reviews/Reviews";
 import Process from "../../sections/Process/Process";
+import Gallery from "../../sections/Galery/Gallery";
 
 export default function HomeView() {
     return (
@@ -14,6 +15,7 @@ export default function HomeView() {
             <FreeValoration />
             <Reviews />
             <Process />
+            <Gallery />
         </section>
     );
 }
