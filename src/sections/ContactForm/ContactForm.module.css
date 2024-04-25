@@ -1,0 +1,145 @@
+.container {
+    padding: 100px 20px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.dataTitle {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.dataTitleMain {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dataTitleMain p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.dataTitleMain hr {
+    border: 2px solid var(--rose);
+}
+
+.dataTitleText {
+    text-align: center;
+    color: var(--grey);
+}
+
+.dataForm {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    width: calc(100% - 32px);
+    padding: 15px;
+    border: 2px solid var(--rose);
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+select {
+    width: calc(100%);
+    padding: 15px;
+    color: #757575;
+    border: 2px solid var(--rose);
+    appearance: none;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    background-color: var(--overlay);
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder,
+select:focus {
+    color: black;
+}
+
+.dataFormTerms {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dataFormTerms a {
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--rose);
+}
+
+.dataFormTerms a:hover {
+    text-decoration: underline;
+}
+
+.dataFormSubmit {
+    width: calc(100% - 2px);
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 2px solid var(--rose);
+}
+
+.dataFormSubmit:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--rose);
+    transition: 0.3s ease-in-out;
+}
+
+.dataFormSubmit:disabled {
+    opacity: 0.3;
+}
+
+.dataFormSubmit:disabled:hover {
+    color: black;
+    background-color: white;
+    cursor: not-allowed;
+}
+
+.dataMessage {
+    max-width: 400px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+    color: rgb(33, 174, 17);
+}
+
+.dataMessageError {
+    max-width: 400px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+    color: rgb(255, 0, 0);
+}
