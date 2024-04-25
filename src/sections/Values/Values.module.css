@@ -1,0 +1,87 @@
+.container {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.title {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titleMain {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.titleMain p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.titleMain hr {
+    border: 2px solid var(--rose);
+}
+
+.titleText {
+    text-align: center;
+    color: var(--grey);
+}
+
+.values {
+    display: flex;
+    gap: 20px;
+}
+
+.valuesCard {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--rose);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.valuesCardIcon {
+    align-self: flex-end;
+    padding: 15px;
+    font-size: 40px;
+    color: var(--rose);
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.valuesCardData {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.valuesCardDataTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.valuesCardDataText {
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .values {
+        flex-direction: column;
+    }
+}

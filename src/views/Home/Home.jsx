@@ -2,8 +2,8 @@ import HomeHeader from "../../sections/HomeHeader/HomeHeader";
 import About from "../../sections/About/About";
 import Services from "../../sections/Services/Services";
 import FreeValoration from "../../sections/FreeValoration/FreeValoration";
-import Reviews from "../../sections/Reviews/Reviews";
 import Process from "../../sections/Process/Process";
+import Values from "../../sections/Values/Values";
 import Gallery from "../../sections/Galery/Gallery";
 
 export default function HomeView() {
@@ -13,8 +13,8 @@ export default function HomeView() {
             <About />
             <Services />
             <FreeValoration />
-            <Reviews />
             <Process />
+            <Values />
             <Gallery />
         </section>
     );
