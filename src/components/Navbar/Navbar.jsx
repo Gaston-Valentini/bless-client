@@ -12,6 +12,11 @@ export default function Navbar() {
         setIsOpen(!isOpen);
     };
 
+    const switchOpenAndNavigate = () => {
+        setIsOpen(!isOpen);
+        window.scrollTo(0, 0);
+    };
+
     return (
         <nav className={style.container}>
             <div className={style.image}>
@@ -22,22 +27,22 @@ export default function Navbar() {
                 <ul className={!isOpen ? style.links : `${style.links} ${style.linksOpen}`}>
                     <IoCloseCircleOutline className={style.linksClose} onClick={switchOpen} />
                     <li className={style.linksLink}>
-                        <Link to={"/"} onClick={switchOpen}>
+                        <Link to={"/"} onClick={switchOpenAndNavigate}>
                             Inicio
                         </Link>
                     </li>
                     <li className={style.linksLink}>
-                        <Link to={"/services"} onClick={switchOpen}>
+                        <Link to={"/services"} onClick={switchOpenAndNavigate}>
                             Servicios
                         </Link>
                     </li>
                     <li className={style.linksLink}>
-                        <Link to={"/questions"} onClick={switchOpen}>
+                        <Link to={"/questions"} onClick={switchOpenAndNavigate}>
                             Preguntas frecuentes
                         </Link>
                     </li>
                     <li className={style.linksLink}>
-                        <Link to={"/contact"} onClick={switchOpen}>
+                        <Link to={"/contact"} onClick={switchOpenAndNavigate}>
                             Contacto
                         </Link>
                     </li>
