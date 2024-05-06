@@ -12,9 +12,9 @@ export default function ServicesList() {
                     <hr />
                 </div>
                 <p className={style.titleText}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus error odit, laborum a nesciunt.
-                    Reprehenderit aspernatur, dignissimos tenetur perspiciatis veritatis, accusamus, cupiditate nostrum fugiat
-                    quae adipisci facilis explicabo exercitationem?
+                    Nos complace presentarte nuestra amplia gama de servicios diseñados para realzar tu belleza y bienestar. En
+                    nuestra clínica, nos comprometemos a ofrecerte una experiencia integral y personalizada que satisfaga todas
+                    tus necesidades estéticas. A continuación, te detallamos nuestros servicios especializados
                 </p>
             </div>
             <div className={style.services}>

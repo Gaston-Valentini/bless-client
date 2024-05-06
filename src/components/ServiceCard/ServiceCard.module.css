@@ -1,5 +1,5 @@
 .container {
-    max-width: 1500px;
+    max-width: 1000px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     border: 2px solid var(--grey);
@@ -24,6 +24,11 @@
     color: var(--grey);
 }
 
+.dataDescription span {
+    font-weight: 800;
+    color: var(--rose);
+}
+
 .image {
     height: 100%;
     width: 100%;
@@ -35,4 +40,17 @@
     width: 100%;
     object-fit: cover;
     border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 767px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .image {
+        max-height: 250px;
+        box-shadow: 0 -2px 5px var(--grey);
+    }
+    .image img {
+        border-radius: 0 0 10px 10px;
+    }
 }
