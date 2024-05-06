@@ -1,5 +1,9 @@
 import style from "./Services.module.css";
-import { GiLips } from "react-icons/gi";
+import russianLips from "../../assets/images/russian-lips-icon.png";
+import antiWrinkles from "../../assets/images/anti-wrinkle-treatment-icon.png";
+import armonization from "../../assets/images/armonization-icon.png";
+import biorepeel from "../../assets/images/biorepeel-icon.png";
+import prp from "../../assets/images/prp-icon.png";
 import { Link } from "react-router-dom";
 
 export default function Services() {
@@ -19,27 +23,37 @@ export default function Services() {
             </div>
             <div className={style.cards}>
                 <div className={style.cardsCard}>
-                    <GiLips />
+                    <div className={style.cardsCardImage}>
+                        <img src={russianLips} />
+                    </div>
                     <p className={style.cardsCardTitle}>Russian Lips</p>
                     <p className={style.cardsCardText}>Labios voluminosos, belleza natural, técnica exclusiva</p>
                 </div>
                 <div className={style.cardsCard}>
-                    <GiLips />
+                    <div className={style.cardsCardImage}>
+                        <img src={antiWrinkles} />
+                    </div>
                     <p className={style.cardsCardTitle}>Tratamiento Antiarrugas</p>
                     <p className={style.cardsCardText}>Arrugas desvanecen, juventud vuelve, renueva belleza facial</p>
                 </div>
                 <div className={style.cardsCard}>
-                    <GiLips />
+                    <div className={style.cardsCardImage}>
+                        <img src={armonization} />
+                    </div>
                     <p className={style.cardsCardTitle}>Armonización</p>
                     <p className={style.cardsCardText}>Rostro equilibrado, belleza armonizada</p>
                 </div>
                 <div className={style.cardsCard}>
-                    <GiLips />
+                    <div className={style.cardsCardImage}>
+                        <img src={biorepeel} />
+                    </div>
                     <p className={style.cardsCardTitle}>Biorepeel</p>
                     <p className={style.cardsCardText}>Renovación profunda, piel radiante</p>
                 </div>
                 <div className={style.cardsCard}>
-                    <GiLips />
+                    <div className={style.cardsCardImage}>
+                        <img src={prp} />
+                    </div>
                     <p className={style.cardsCardTitle}>PRP</p>
                     <p className={style.cardsCardText}>Renovación profunda, piel radiante</p>
                 </div>

@@ -6,8 +6,13 @@ export default function FreeValoration() {
         <section className={style.container}>
             <div className={style.overlay}>
                 <p className={style.title}>Tu primera valoración es GRATIS</p>
-                <p className={style.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae fugiat atque, et rerum veritatis placeat sit a. Perspiciatis expedita aperiam dolor optio, deleniti mollitia maiores officiis ipsa dignissimos voluptates.</p>
-                <Link to="#" className={style.link}>
+                <p className={style.text}>
+                    Sabemos que cada persona es única y que elegir el tratamiento estético adecuado es una decisión importante.
+                    Por eso, ofrecemos una primera consulta gratuita sin compromiso. Nuestro objetivo es proporcionarte toda la
+                    información que necesitas para tomar una decisión informada sobre tu cuidado estético. ¡Reserva tu cita hoy y
+                    descubre cómo podemos ayudarte a realzar tu belleza natural!
+                </p>
+                <Link to="/contact" className={style.link} onClick={() => window.scrollTo(0, 0)}>
                     CONTÁCTANOS
                 </Link>
             </div>

@@ -33,7 +33,12 @@ export default function Reviews() {
                     <p>¿Qué dicen nuestros clientes?</p>
                     <hr />
                 </div>
-                <p className={style.titleText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus error odit, laborum a nesciunt. Reprehenderit aspernatur, dignissimos tenetur perspiciatis veritatis, accusamus, cupiditate nostrum fugiat quae adipisci facilis explicabo exercitationem?</p>
+                <p className={style.titleText}>
+                    Valoramos profundamente las experiencias y opiniones de nuestros pacientes. Aquí presentamos algunas de las
+                    reseñas que han compartido, reflejando los resultados y el servicio de calidad que ofrecemos. Estas historias
+                    de satisfacción y transformación son la prueba de nuestro compromiso con la excelencia y la atención
+                    personalizada.
+                </p>
             </div>
             <div className={style.reviews}>
                 {reviews.length > 0 ? (

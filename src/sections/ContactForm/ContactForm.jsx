@@ -53,13 +53,12 @@ export default function ContactForm() {
                 <div className={style.dataTitle}>
                     <div className={style.dataTitleMain}>
                         <hr />
-                        <p>Nuestros servicios</p>
+                        <p>Contáctanos</p>
                         <hr />
                     </div>
                     <p className={style.dataTitleText}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus error odit, laborum a nesciunt.
-                        Reprehenderit aspernatur, dignissimos tenetur perspiciatis veritatis, accusamus, cupiditate nostrum fugiat
-                        quae adipisci facilis explicabo exercitationem?
+                        Estamos aquí para ayudarte. Si tienes preguntas, deseas más información sobre nuestros servicios, o estás
+                        listo para programar tu cita, no dudes en ponerte en contacto con nosotros.
                     </p>
                 </div>
                 <form className={style.dataForm} ref={formRef} onSubmit={handleSubmit}>

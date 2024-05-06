@@ -6,11 +6,13 @@ import HomeView from "./views/Home/Home";
 import ServicesView from "./views/Services/Services";
 import QuestionsView from "./views/Questions/Questions";
 import ContactView from "./views/Contact/Contact";
+import Whatsapp from "./components/Whatsapp/Whatsapp";
 
 export default function App() {
     return (
         <Router>
             <Navbar />
+            <Whatsapp />
             <Routes>
                 <Route path="/" element={<HomeView />} />
                 <Route path="/services" element={<ServicesView />} />

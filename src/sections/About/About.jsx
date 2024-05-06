@@ -13,10 +13,19 @@ export default function About() {
                         <hr />
                     </div>
                     <p className={style.contentDataText}>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo autem ipsam, voluptates porro cum ea vel accusamus unde. Ullam porro ea blanditiis, necessitatibus deleniti sapiente. Hic facere dolorem eaque consectetur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo autem ipsam, voluptates porro cum ea vel accusamus unde. Ullam porro ea blanditiis, necessitatibus deleniti sapiente. Hic facere dolorem eaque consectetur! Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Quo autem ipsam, voluptates porro cum ea vel accusamus unde. Ullam porro ea blanditiis, necessitatibus deleniti sapiente. Hic facere dolorem eaque consectetur!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo autem ipsam, voluptates porro cum ea vel
+                        accusamus unde. Ullam porro ea blanditiis, necessitatibus deleniti sapiente. Hic facere dolorem eaque
+                        consectetur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo autem ipsam, voluptates porro
+                        cum ea vel accusamus unde. Ullam porro ea blanditiis, necessitatibus deleniti sapiente. Hic facere dolorem
+                        eaque consectetur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo autem ipsam, voluptates
+                        porro cum ea vel accusamus unde. Ullam porro ea blanditiis, necessitatibus deleniti sapiente. Hic facere
+                        dolorem eaque consectetur!
                     </p>
-                    <a href="#" className={style.contentDataSocial}>
+                    <a
+                        href="https://www.instagram.com/blessaestheticmedicine/"
+                        target="blank"
+                        className={style.contentDataSocial}
+                    >
                         <FaInstagram />
                         <p>Instagram</p>
                     </a>

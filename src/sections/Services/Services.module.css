@@ -49,13 +49,17 @@
     gap: 5px;
 }
 
-.cardsCard svg {
-    padding: 10px;
-    font-size: 80px;
-    color: white;
-    background-color: var(--rose);
-    border: 2px solid black;
+.cardsCardImage {
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border: 3px solid var(--rose);
     border-radius: 50%;
+}
+
+.cardsCardImage img {
+    height: 100%;
+    width: 100%;
 }
 
 .cardsCardTitle {

@@ -8,10 +8,13 @@ export default function Process() {
             <div className={style.title}>
                 <div className={style.titleMain}>
                     <hr />
-                    <p>Nuestros servicios</p>
+                    <p>Nuestro procedimiento</p>
                     <hr />
                 </div>
-                <p className={style.titleText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus error odit, laborum a nesciunt. Reprehenderit aspernatur, dignissimos tenetur perspiciatis veritatis, accusamus, cupiditate nostrum fugiat quae adipisci facilis explicabo exercitationem?</p>
+                <p className={style.titleText}>
+                    A continuación te presentamos las diferentes etapas de nuestro procedimiento, desde la consulta inicial hasta
+                    el cuidado posterior
+                </p>
             </div>
             <div className={style.process}>
                 <div className={style.processElement}>
@@ -19,7 +22,11 @@ export default function Process() {
                         <p className={style.processElementTitleText}>RESEARCH</p>
                         <p className={style.processElementTitleNumber}>1</p>
                     </div>
-                    <div className={style.processElementText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias ad, aspernatur saepe numquam eligendi consequuntur ipsum facilis iste quo praesentium ut ratione perferendis, similique, provident exercitationem porro magni et.</div>
+                    <div className={style.processElementText}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias ad, aspernatur saepe numquam
+                        eligendi consequuntur ipsum facilis iste quo praesentium ut ratione perferendis, similique, provident
+                        exercitationem porro magni et.
+                    </div>
                     <FaMagnifyingGlass className={style.processElementIcon} />
                 </div>
                 <div className={style.processDivisor}>
@@ -32,7 +39,11 @@ export default function Process() {
                         <p className={style.processElementTitleText}>RESEARCH</p>
                         <p className={style.processElementTitleNumber}>2</p>
                     </div>
-                    <div className={style.processElementText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias ad, aspernatur saepe numquam eligendi consequuntur ipsum facilis iste quo praesentium ut ratione perferendis, similique, provident exercitationem porro magni et.</div>
+                    <div className={style.processElementText}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias ad, aspernatur saepe numquam
+                        eligendi consequuntur ipsum facilis iste quo praesentium ut ratione perferendis, similique, provident
+                        exercitationem porro magni et.
+                    </div>
                     <FaMagnifyingGlass className={style.processElementIcon} />
                 </div>
                 <div className={style.processDivisor}>
@@ -45,7 +56,11 @@ export default function Process() {
                         <p className={style.processElementTitleText}>RESEARCH</p>
                         <p className={style.processElementTitleNumber}>3</p>
                     </div>
-                    <div className={style.processElementText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias ad, aspernatur saepe numquam eligendi consequuntur ipsum facilis iste quo praesentium ut ratione perferendis, similique, provident exercitationem porro magni et.</div>
+                    <div className={style.processElementText}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias ad, aspernatur saepe numquam
+                        eligendi consequuntur ipsum facilis iste quo praesentium ut ratione perferendis, similique, provident
+                        exercitationem porro magni et.
+                    </div>
                     <FaMagnifyingGlass className={style.processElementIcon} />
                 </div>
                 <div className={style.processDivisor}>
@@ -58,7 +73,11 @@ export default function Process() {
                         <p className={style.processElementTitleText}>RESEARCH</p>
                         <p className={style.processElementTitleNumber}>4</p>
                     </div>
-                    <div className={style.processElementText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias ad, aspernatur saepe numquam eligendi consequuntur ipsum facilis iste quo praesentium ut ratione perferendis, similique, provident exercitationem porro magni et.</div>
+                    <div className={style.processElementText}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias ad, aspernatur saepe numquam
+                        eligendi consequuntur ipsum facilis iste quo praesentium ut ratione perferendis, similique, provident
+                        exercitationem porro magni et.
+                    </div>
                     <FaMagnifyingGlass className={style.processElementIcon} />
                 </div>
             </div>

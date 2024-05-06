@@ -17,7 +17,7 @@ export default function Gallery() {
                     <p>La clínica</p>
                     <hr />
                 </div>
-                <p className={style.titleText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus error odit, laborum a nesciunt. Reprehenderit aspernatur, dignissimos tenetur perspiciatis veritatis, accusamus, cupiditate nostrum fugiat quae adipisci facilis explicabo exercitationem?</p>
+                <p className={style.titleText}>Te dejamos una pequeña galería para que le eches un vistazo a nuestra clínica</p>
             </div>
             <div className={style.gallery}>
                 <div className={style.image}>
