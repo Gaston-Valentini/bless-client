@@ -1,9 +1,23 @@
 .container {
     max-width: 1000px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
     border: 2px solid var(--grey);
+    border-radius: 13px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 0 5px var(--grey);
     border-radius: 10px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
 }
 
 .data {
@@ -29,17 +43,25 @@
     color: var(--rose);
 }
 
-.image {
-    height: 100%;
-    width: 100%;
-    box-shadow: -2px 0 5px var(--grey);
+.dataInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
-.image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 0 10px 10px 0;
+.dataInfoElement {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dataInfoElement svg {
+    font-size: 20px;
+    color: var(--rose);
+}
+
+.dataInfoElementText {
+    color: var(--grey);
 }
 
 @media (max-width: 767px) {
