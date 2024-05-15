@@ -1,39 +1,52 @@
+import { useState } from "react";
 import style from "./ServiceCard.module.css";
+import { IoIosArrowDown } from "react-icons/io";
 import { BiInjection } from "react-icons/bi";
 import { MdNumbers } from "react-icons/md";
 import { FaRegClock, FaCalendarCheck } from "react-icons/fa";
 
 export default function ServiceCard(props) {
     const { title, description, image, product, sessions, time, date } = props;
-    console.log(props);
+    const [showInfo, setShowInfo] = useState(false);
+
+    const toggleInfo = () => {
+        setShowInfo(!showInfo);
+    };
 
     return (
         <section className={style.container}>
-            <div className={style.image}>
-                <img src={image} />
+            <div className={style.title}>
+                <div className={style.titleText}>{title}</div>
+                <IoIosArrowDown onClick={toggleInfo} style={showInfo ? { transform: "rotate(180deg)" } : {}} />
             </div>
-            <div className={style.data}>
-                <p className={style.dataTitle}>{title}</p>
-                <p className={style.dataDescription}>{description}</p>
-                <div className={style.dataInfo}>
-                    <div className={style.dataInfoElement}>
-                        <BiInjection />
-                        <p className={style.dataInfoElementText}>{product}</p>
+            {showInfo && (
+                <div className={style.content}>
+                    <div className={style.contentImage}>
+                        <img src={image} alt={title} />
                     </div>
-                    <div className={style.dataInfoElement}>
-                        <MdNumbers />
-                        <p className={style.dataInfoElementText}>{sessions}</p>
-                    </div>
-                    <div className={style.dataInfoElement}>
-                        <FaRegClock />
-                        <p className={style.dataInfoElementText}>{time}</p>
-                    </div>
-                    <div className={style.dataInfoElement}>
-                        <FaCalendarCheck />
-                        <p className={style.dataInfoElementText}>{date}</p>
+                    <div className={style.contentData}>
+                        <p className={style.contentDataText}>{description}</p>
+                        <div className={style.contentDataNumbers}>
+                            <div className={style.contentDataNumbersElement}>
+                                <BiInjection />
+                                <p>{product}</p>
+                            </div>
+                            <div className={style.contentDataNumbersElement}>
+                                <MdNumbers />
+                                <p>{sessions}</p>
+                            </div>
+                            <div className={style.contentDataNumbersElement}>
+                                <FaRegClock />
+                                <p>{time}</p>
+                            </div>
+                            <div className={style.contentDataNumbersElement}>
+                                <FaCalendarCheck />
+                                <p>{date}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
         </section>
     );
 }
