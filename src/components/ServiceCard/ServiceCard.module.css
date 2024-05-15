@@ -32,22 +32,29 @@
 }
 
 .content {
+    padding: 0 20px 20px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
 }
 
 .contentImage {
-    border-top: 1px solid var(--grey);
-    border-right: 1px solid var(--grey);
-    border-radius: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.contentImage img {
+.contentImageContainer {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--grey);
+}
+
+.contentImageContainer img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 0 10px 0 10px;
+    border-radius: 10px;
 }
 
 .contentData {
@@ -57,7 +64,6 @@
 }
 
 .contentDataText {
-    padding: 0 20px 0 0;
     color: var(--grey);
 }
 
@@ -67,7 +73,6 @@
 }
 
 .contentDataNumbers {
-    padding: 0 0 20px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;

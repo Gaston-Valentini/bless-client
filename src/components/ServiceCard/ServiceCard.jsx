@@ -22,7 +22,9 @@ export default function ServiceCard(props) {
             {showInfo && (
                 <div className={style.content}>
                     <div className={style.contentImage}>
-                        <img src={image} alt={title} />
+                        <div className={style.contentImageContainer}>
+                            <img src={image} alt={title} />
+                        </div>
                     </div>
                     <div className={style.contentData}>
                         <p className={style.contentDataText}>{description}</p>
