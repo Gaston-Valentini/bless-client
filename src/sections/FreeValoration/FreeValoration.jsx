@@ -5,12 +5,12 @@ export default function FreeValoration() {
     return (
         <section className={style.container}>
             <div className={style.overlay}>
-                <p className={style.title}>Tu primera valoración es GRATIS</p>
+                <p className={style.title}>Todas tus valoraciones y diagnósticos son GRATIS</p>
                 <p className={style.text}>
-                    Sabemos que cada persona es única y que elegir el tratamiento estético adecuado es una decisión importante.
-                    Por eso, ofrecemos una primera consulta gratuita sin compromiso. Nuestro objetivo es proporcionarte toda la
-                    información que necesitas para tomar una decisión informada sobre tu cuidado estético. ¡Reserva tu cita hoy y
-                    descubre cómo podemos ayudarte a realzar tu belleza natural!
+                    Sabemos que cada persona es única y que elegir los tratamientos adecuados es una decisión importante. Por eso, cualquiera de tus
+                    consultas será gratuita sin compromiso. Nuestro objetivo es proporcionarte toda la información y asesoramiento que necesitas para
+                    tomar una decisión a favor de tu cuidado y bienestar. ¡Reserva tu cita hoy y descubre cómo podemos ayudarte a realzar y potenciar
+                    tu belleza natural!
                 </p>
                 <Link to="/contact" className={style.link} onClick={() => window.scrollTo(0, 0)}>
                     CONTÁCTANOS

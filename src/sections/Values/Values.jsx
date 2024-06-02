@@ -13,8 +13,8 @@ export default function Values() {
                     <hr />
                 </div>
                 <p className={style.titleText}>
-                    En BLESS, nos esforzamos por ser más que una simple compañía; nuestro objetivo es ser un referente en la
-                    industria gracias a nuestros valores fundamentales que guían cada uno de nuestros pasos y decisiones.
+                    En BLESS AESTHETIC MEDICINE, nos esforzamos por ser más que una clínica; nuestro objetivo es ser un referente en el sector gracias
+                    a nuestros valores fundamentales que guían cada uno de nuestros pasos y decisiones.
                 </p>
             </div>
             <div className={style.values}>
@@ -23,7 +23,7 @@ export default function Values() {
                     <div className={style.valuesCardData}>
                         <p className={style.valuesCardDataTitle}>MISIÓN</p>
                         <p className={style.valuesCardDataText}>
-                            Mejorar la confianza de nuestros clientes mediante tratamientos seguros y personalizados.
+                            Mejorar la confianza de nuestros pacientes mediante tratamientos seguros y personalizados.
                         </p>
                     </div>
                 </div>
@@ -31,18 +31,14 @@ export default function Values() {
                     <FaRegEye className={style.valuesCardIcon} />
                     <div className={style.valuesCardData}>
                         <p className={style.valuesCardDataTitle}>VISIÓN</p>
-                        <p className={style.valuesCardDataText}>
-                            Ser referente en innovación y excelencia en la estética clínica a nivel nacional.
-                        </p>
+                        <p className={style.valuesCardDataText}>Ser referente en innovación y excelencia en la estética clínica a nivel nacional.</p>
                     </div>
                 </div>
                 <div className={style.valuesCard}>
                     <IoDiamondOutline className={style.valuesCardIcon} />
                     <div className={style.valuesCardData}>
                         <p className={style.valuesCardDataTitle}>VALORES</p>
-                        <p className={style.valuesCardDataText}>
-                            Compromiso, calidad, innovación, atención personalizada, integridad.
-                        </p>
+                        <p className={style.valuesCardDataText}>Compromiso, calidad, innovación, empatía, integridad.</p>
                     </div>
                 </div>
             </div>

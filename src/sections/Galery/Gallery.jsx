@@ -21,28 +21,17 @@ export default function Gallery() {
             </div>
             <div className={style.gallery}>
                 <div className={style.image}>
-                    <img src={image1} />
-                </div>
-                <div className={style.image}>
-                    <img src={image2} />
-                </div>
-                <div className={style.image}>
-                    <img src={image3} />
-                </div>
-                <div className={style.image}>
                     <img src={image4} />
+                </div>
+                <div className={style.image}>
+                    <img src={image8} />
                 </div>
                 <div className={style.image}>
                     <img src={image5} />
                 </div>
-                <div className={style.image}>
-                    <img src={image6} />
-                </div>
+
                 <div className={style.image}>
                     <img src={image7} />
-                </div>
-                <div className={style.image}>
-                    <img src={image8} />
                 </div>
             </div>
         </section>

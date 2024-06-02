@@ -15,19 +15,19 @@ export default function Footer() {
                 <ul className={style.dataInfo}>
                     <li className={style.dataInfoItem}>
                         <FaPhoneAlt />
-                        623271806
+                        +34648974660
                     </li>
                     <li className={style.dataInfoItem}>
                         <MdOutlineAlternateEmail />
-                        bless@gmail.com
+                        blessaesthetic@gmail.com
                     </li>
                     <li className={style.dataInfoItem}>
                         <FaClock />
-                        09:00 - 17:00
+                        Atendemos bajo cita previa
                     </li>
                     <li className={style.dataInfoItem}>
                         <FaLocationDot />
-                        Av. Vicente Lorca Alós 15
+                        Av. Europa 8, local PL32B, 03503
                     </li>
                 </ul>
             </div>
