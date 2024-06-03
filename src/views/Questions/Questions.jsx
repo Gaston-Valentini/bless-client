@@ -1,5 +1,5 @@
 import ViewHeader from "../../components/ViewHeader/ViewHeader";
-import headerBackground from "../../assets/images/frequently-questions.jpg";
+import headerBackground from "../../assets/images/frequenlty-questions-header.jpg";
 import FrequentlyQuestions from "../../sections/FrequentlyQuestions/FrequentlyQuestions";
 import Reviews from "../../sections/Reviews/Reviews";
 

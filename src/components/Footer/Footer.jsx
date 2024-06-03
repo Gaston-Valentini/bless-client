@@ -5,6 +5,14 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 
 export default function Footer() {
+    const onWhatsapp = () => {
+        const phone = "+34640996689";
+        const message = "!Hola! Me gustaría recibir más información, mi nombre es: ";
+        const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+        window.open(url);
+    };
+
     return (
         <footer className={style.container}>
             <div className={style.logo}>
@@ -35,14 +43,14 @@ export default function Footer() {
                 <p className={style.socialTitle}>Síguenos</p>
                 <ul className={style.socialIcons}>
                     <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/blessaestheticmedicine/" target="blank">
                             <FaInstagram />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <div onClick={onWhatsapp}>
                             <FaWhatsapp />
-                        </a>
+                        </div>
                     </li>
                 </ul>
             </div>

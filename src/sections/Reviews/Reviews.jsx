@@ -30,14 +30,13 @@ export default function Reviews() {
             <div className={style.title}>
                 <div className={style.titleMain}>
                     <hr />
-                    <p>¿Qué dicen nuestros clientes?</p>
+                    <p>¿QUÉ DICEN NUESTROS CLIENTES?</p>
                     <hr />
                 </div>
                 <p className={style.titleText}>
-                    Valoramos profundamente las experiencias y opiniones de nuestros pacientes. Aquí presentamos algunas de las
-                    reseñas que han compartido, reflejando los resultados y el servicio de calidad que ofrecemos. Estas historias
-                    de satisfacción y transformación son la prueba de nuestro compromiso con la excelencia y la atención
-                    personalizada.
+                    Valoramos profundamente las experiencias y opiniones de nuestros pacientes. Aquí presentamos algunas de las reseñas que han
+                    compartido, reflejando los resultados y el servicio de calidad que ofrecemos. Estas historias de satisfacción y transformación son
+                    la prueba de nuestro compromiso con la excelencia y la atención personalizada.
                 </p>
             </div>
             <div className={style.reviews}>

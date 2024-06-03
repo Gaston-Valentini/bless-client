@@ -53,12 +53,12 @@ export default function ContactForm() {
                 <div className={style.dataTitle}>
                     <div className={style.dataTitleMain}>
                         <hr />
-                        <p>Contáctanos</p>
+                        <p>CONTÁCTANOS</p>
                         <hr />
                     </div>
                     <p className={style.dataTitleText}>
-                        Estamos aquí para ayudarte. Si tienes preguntas, deseas más información sobre nuestros servicios, o estás
-                        listo para programar tu cita, no dudes en ponerte en contacto con nosotros.
+                        Estamos aquí para ayudarte. Si tienes preguntas, deseas más información sobre nuestros servicios, o estás listo para programar
+                        tu cita, no dudes en ponerte en contacto con nosotros.
                     </p>
                 </div>
                 <form className={style.dataForm} ref={formRef} onSubmit={handleSubmit}>
@@ -66,7 +66,7 @@ export default function ContactForm() {
                     <input name="user_email" type="email" placeholder="Correo..." onChange={(e) => handleInput(e)} />
                     <select name="treatment" value={form.treatment} onChange={(e) => handleInput(e)}>
                         <option value="" disabled hidden>
-                            Seleccione tratamiento
+                            Seleccione tratamiento...
                         </option>
                         <option value="Eliminación de tatuaje">Eliminación de tatuaje</option>
                         <option value="Eliminación de micropigmentación">Eliminación de micropigmentación</option>

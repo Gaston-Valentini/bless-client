@@ -78,6 +78,7 @@
 }
 
 .socialIcons svg:hover {
+    cursor: pointer;
     color: var(--rose);
     background-color: white;
     transition: 0.3s;

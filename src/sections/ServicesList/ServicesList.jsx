@@ -8,14 +8,27 @@ export default function ServicesList() {
             <div className={style.title}>
                 <div className={style.titleMain}>
                     <hr />
-                    <p>Nuestros servicios</p>
+                    <p>NUESTROS SERVICIOS</p>
                     <hr />
                 </div>
-                <p className={style.titleText}>Nos complace presentarte nuestra amplia gama de servicios diseñados para realzar tu belleza y bienestar. En nuestra clínica, nos comprometemos a ofrecerte una experiencia integral y personalizada que satisfaga todas tus necesidades estéticas. A continuación, te detallamos nuestros servicios especializados</p>
+                <p className={style.titleText}>
+                    A continuación nuestros tratamientos disponibles en clínica, diseñados para realzar y mejorar la armonía facial así como la salud
+                    y bienestar de nuestros pacientes. En nuestra clínica, nos comprometemos a ofrecer una experiencia integral y personalizada que
+                    satisfaga todas las necesidades y expectativas
+                </p>
             </div>
             <div className={style.services}>
                 {services.map((service) => (
-                    <ServiceCard key={service.id} title={service.title} description={service.description} image={service.image} product={service.product} sessions={service.sessions} time={service.time} date={service.date} />
+                    <ServiceCard
+                        key={service.id}
+                        title={service.title}
+                        description={service.description}
+                        image={service.image}
+                        product={service.product}
+                        sessions={service.sessions}
+                        time={service.time}
+                        date={service.date}
+                    />
                 ))}
             </div>
         </section>

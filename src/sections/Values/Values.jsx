@@ -9,7 +9,7 @@ export default function Values() {
             <div className={style.title}>
                 <div className={style.titleMain}>
                     <hr />
-                    <p>En que creemos</p>
+                    <p>EN QUE CREEMOS</p>
                     <hr />
                 </div>
                 <p className={style.titleText}>

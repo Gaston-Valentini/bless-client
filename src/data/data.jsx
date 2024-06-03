@@ -16,6 +16,7 @@ import chemicalPeel from "../assets/images/chemical-peel.jpg";
 import liquidLifting from "../assets/images/liquid-lifting.jpg";
 import dermapen from "../assets/images/dermapen.jpg";
 import mesotherapy from "../assets/images/mesoterapy.jpg";
+import fullFace from "../assets/images/full-face.jpg";
 
 const services = [
     {
@@ -80,15 +81,12 @@ const services = [
         title: "MARCACIÓN MANDIBULAR",
         description: (
             <p>
-                Es un procedimiento seguro y eficaz con el que se puede conseguir una <span>armonización completa en una sesión</span>, se basa en
-                infiltración con el ácido hialurónico gracias a ello conseguimos <span>mayor definición del perfil</span>, quitamos de flacidez en
-                aquella zona disimulando la papada y con lo cual mejora de manera integral tercio inferior facial. Este procedimiento ofrece unos
-                resultados naturales y es una excelente alternativa para recuperar la firmeza de la piel, mejorando el óvalo facial. También
-                proporciona al rostro un <span>aspecto mucho más joven y atractivo</span>. También es muy beneficioso para los hombres, ya que
-                proporciona mayor masculinización y armonización del rostro. Es un procedimiento no invasivo con apenas molestias después del
-                tratamiento y unos resultados excelentes y duraderos. En algunos casos para lograr mejor armonía ha de combinarse con elevación de
-                pómulos y la proyección del mentón aportando una armonización completa e integral. El diseño de este tratamiento se individualiza en
-                cada paciente en función de sus gustos y necesidades, con un límite siempre en la naturalidad y en la armonía del rostro.
+                La marcación mandibular es un tratamiento en medicina estética que tiene el objetivo de mejorar el contorno de la mandíbula para
+                brindarle una <span>mayor armonía a nuestros rasgos y embellecer</span> así nuestro rostro. El contorno mandibular es uno de los
+                rasgos con mayor participación en la definición del óvalo facial. Y este tratamiento consiste en modificar su forma por medio de
+                pequeñas infiltraciones de ácido hialurónico. Gracias a este tratamiento logramos también disimular la zona de la papada y que haya
+                una mayoría separación entre el contorno mandibular y el cuello. En hombres logramos una mayor{" "}
+                <span>masculinización y en mujeres un embellecimiento y feminización</span>.
             </p>
         ),
         image: mandibularMarking,
@@ -119,18 +117,10 @@ const services = [
         title: "RELLENO DE OJERAS",
         description: (
             <p>
-                La zona periorbital y el surco lagrimal son aquellas áreas que en primer lugar revelan el bienestar, cansancio y la edad. Aquí, la
-                piel, tejidos blandos y los músculos son muy finos. Por lo tanto, observamos el color oscuro y azulado en dicha zona, que transmite en
-                cansancio de la mirada debido a que el contorno de ojos posee una piel tan fina que puede transparentar y hacer visible el color
-                azulado de los vasos sanguíneos que se encuentran en esa parte. Dicho tratamiento{" "}
-                <span>
-                    hidrata toda la zona de las ojeras, disminuyendo notoriamente el hundimiento, dando elasticidad, vitalidad y rejuvenecimiento para
-                    un efecto inmediato de cara descansada
-                </span>
-                . También ayuda a <span>disminuir el color del surco</span> porque al rellenar aquella zona se consigue que no se transparenten los
-                tejidos blandos, como los vasos sanguíneos. De esta manera, la piel adquiere un mayor grosor y un tono más equilibrado, y además se
-                elimina esa fatiga añadida al rostro. Dicho procedimiento es apto tanto para hombres, como para mujeres y es óptimo para todas las
-                edades ya que se obtienen resultados naturales y duraderos hasta 18 meses.
+                El <span>relleno de ojeras con ácido hialurónico</span> es un tratamiento que permite corregir la pérdida de contorno alrededor de los
+                ojos, lo cual nos dota de ese aspecto de cansancio permanente . Es importante un correcto diagnóstico ya que esta zona se puede ver
+                afectada por surco , bolsa y/o pigmentación así como falta de soporte a nivel del pómulo. Gracias a las infiltraciones en dicha zona
+                se consiguen resultados de mirada más fresca y descansada mejorando la anatomía completa y un <span>efecto de buena cara</span>.
             </p>
         ),
         image: underEyeFiller,
@@ -144,10 +134,11 @@ const services = [
         title: "REPOSICIÓN DE PÓMULOS",
         description: (
             <p>
-                La reposición de pómulos es un procedimiento estético que utiliza ácido hialurónico para{" "}
-                <span>restaurar el volumen y la definición de los pómulos</span>. Al inyectar cuidadosamente el relleno en áreas específicas de los
-                pómulos, podemos mejorar la estructura facial y crear un aspecto más juvenil y armonioso. Este tratamiento es seguro, eficaz y
-                proporciona resultados inmediatos y duraderos.
+                La reposición de pómulos es un procedimiento que utiliza ácido hialurónico para restaurar el <span>volumen y la definición</span> de
+                los pómulos y el tercio medio en general. Al inyectar cuidadosamente el relleno en áreas específicas de los pómulos, podemos mejorar
+                la estructura facial y crear un aspecto más <span>juvenil y armonioso</span>. Con un solo tratamiento también podemos dar soporte a la
+                ojera, y liberar la caída del pómulo sobre el nasogeniano mejorando también estas zonas. Este tratamiento es seguro, eficaz y
+                proporciona resultados <span>inmediatos y duraderos</span>.
             </p>
         ),
         image: cheekboneReplacement,
@@ -177,16 +168,15 @@ const services = [
     },
     {
         id: 9,
-        title: "SURGO NASOGENIANO",
+        title: "SURCOS NASOGENIANOS",
         description: (
             <p>
-                Los surcos nasolabiales son una de las áreas problemáticas de la cara. Debido a la frecuente gesticulación y pérdida de colágeno en
-                aquella zona, las arrugas y otros signos de envejecimiento a menudo aparecen aquí. Uno de los métodos modernos que{" "}
-                <span>elimina estas imperfecciones</span> es el relleno del surco nasogeniano con el ácido hialurónico. Aplicando el ácido hialurónico
-                conseguimos <span>quitar las marcas de expresión</span> y de ese modo deshacemos de los signos mencionados del envejecimiento y
-                obtenemos el resultado natural y armonioso. Aplicando el ácido hialurónico en aquella zona obtenemos{" "}
-                <span>piel más firme y tersa, alisando aquella área y obteniendo el efecto “flash”</span> con unos resultados duraderos y
-                satisfactorios.
+                Los surcos nasogenianos son una de las áreas problemáticas de la cara. Debido a la frecuente{" "}
+                <span>gesticulación y pérdida de colágeno</span> en aquella zona y a la <span>caída del los paquetes grasos del pómulo</span> caída
+                del los paquetes grasos del pómulo que se depositan aquí se acentúan estos surcos.Aplicando el ácido hialurónico conseguimos quitar
+                las marcas de expresión y de ese modo deshacemos de los signos mencionados del envejecimiento y obtenemos el resultado natural y
+                armonioso. Para dicho tratamiento suele ser recomendable tratar, anclar y/o elevar los tejidos del tercio medio (pómulos ) si estos
+                fuera necesario para una correcta mejora. Es importante un correcto diagnóstico.
             </p>
         ),
         image: nasolabialFold,
@@ -334,66 +324,77 @@ const services = [
         time: "45-60 minutos por sesión",
         date: "Varía según el paciente",
     },
+    {
+        id: 18,
+        title: "FULL FACE",
+        description: (
+            <p>
+                El <span>tratamiento Full Face</span> o <span>tratamiento</span> facial completo, es una combinación de diferentes{" "}
+                <span>tratamientos</span> de medicina estética que se realizan de forma conjunta, para abordar el rostro de manera integral, y así
+                conseguir un rejuvenecimiento y/o armonización completa. Será necesario un diagnóstico completo que variará siempre en función a la
+                anatomía y expectativa de cada paciente.
+            </p>
+        ),
+        image: fullFace,
+        product: "Cóctel de vitaminas, minerales y nutrientes",
+        sessions: "Sesiones a determinar",
+        time: "45-60 minutos por sesión",
+        date: "Varía según el paciente",
+    },
 ];
 
 const questions = [
     {
         id: 1,
-        question: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, enim.",
+        question: "¿En qué consiste la armonización facial?",
         answer: (
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, consequuntur? Ad modi voluptatum consequuntur quis facere obcaecati
-                iusto reiciendis ipsam provident tempora sint, debitis assumenda rerum architecto ea aperiam aliquam.
+                La armonización facial se conoce como un conjunto de procedimientos que tienen como objetivo mejorar la apariencia global del rostro
+                al equilibrar sus características y proporciones. Se logra mediante el uso de métodos no quirúrgicos, como ácido hialurónico y
+                neuromoduladores, entre otros.
             </p>
         ),
     },
     {
         id: 2,
-        question: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, enim.",
+        question: "¿Cuántas sesiones son necesarias para los tratamientos?",
         answer: (
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, consequuntur? Ad modi voluptatum consequuntur quis facere obcaecati
-                iusto reiciendis ipsam provident tempora sint, debitis assumenda rerum architecto ea aperiam aliquam.
+                Dependiendo de cada tratamiento, de las características inherentes de cada paciente y de las expectativas a lograr, serán necesarias
+                desde una a varias sesiones en un mismo procedimiento. Este podrá repetirse las veces que sean necesarias con los márgenes de tiempo
+                correspondientes, primando siempre la seguridad del paciente y el resultado deseado.
             </p>
         ),
     },
     {
         id: 3,
-        question: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, enim.",
+        question: "¿Son dolorosos los procedimientos?",
         answer: (
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, consequuntur? Ad modi voluptatum consequuntur quis facere obcaecati
-                iusto reiciendis ipsam provident tempora sint, debitis assumenda rerum architecto ea aperiam aliquam.
+                Minimamente, los procedimientos se realizan con las medidas necesarias para que sean lo menos dolorosos posible. No obstante, esto lo
+                determinarán, entre otros factores, cada tipo de tratamiento y técnica utilizada, así como el umbral de dolor y la sensibilidad de
+                cada paciente.
             </p>
         ),
     },
     {
         id: 4,
-        question: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, enim.",
+        question: "¿Los resultados son definitivos?",
         answer: (
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, consequuntur? Ad modi voluptatum consequuntur quis facere obcaecati
-                iusto reiciendis ipsam provident tempora sint, debitis assumenda rerum architecto ea aperiam aliquam.
+                Todos los tratamientos realizados en medicina estética son realizados con productos reabsorbibles en el tiempo. El tiempo de
+                reabsorción lo determinarán, entre otros factores, el producto utilizado, así como el metabolismo y la capacidad de reabsorción de
+                cada paciente. Asimismo, los efectos son acumulativos.
             </p>
         ),
     },
     {
         id: 5,
-        question: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, enim.",
+        question: "¿Cómo puedo obtener cita?",
         answer: (
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, consequuntur? Ad modi voluptatum consequuntur quis facere obcaecati
-                iusto reiciendis ipsam provident tempora sint, debitis assumenda rerum architecto ea aperiam aliquam.
-            </p>
-        ),
-    },
-    {
-        id: 6,
-        question: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, enim.",
-        answer: (
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, consequuntur? Ad modi voluptatum consequuntur quis facere obcaecati
-                iusto reiciendis ipsam provident tempora sint, debitis assumenda rerum architecto ea aperiam aliquam.
+                Tanto las citas de valoración como las de tratamientos se tendrán que reservar con antelación en nuestro número de teléfono o nuestro
+                número de WhatsApp.
             </p>
         ),
     },

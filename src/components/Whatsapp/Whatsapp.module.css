@@ -8,6 +8,7 @@
     background-color: #2dd46c;
     box-shadow: 0 0 5px black;
     border-radius: 50%;
+    z-index: 1000;
 }
 
 .container:hover {

@@ -9,13 +9,12 @@ export default function FrequentlyQuestions() {
             <div className={style.title}>
                 <div className={style.titleMain}>
                     <hr />
-                    <p>Algunas de las dudas más comunes</p>
+                    <p>PREGUNTAS Y RESPUESTAS</p>
                     <hr />
                 </div>
                 <p className={style.titleText}>
-                    Entendemos que puedas tener preguntas antes de decidirte por un tratamiento estético. Es por eso que hemos
-                    compilado una lista de las preguntas más frecuentes para ayudarte a obtener las respuestas que necesitas de
-                    forma rápida y clara.
+                    Entendemos que puedas tener preguntas antes de decidirte por un tratamiento estético. Es por eso que hemos compilado una lista de
+                    las preguntas más frecuentes para ayudarte a obtener las respuestas que necesitas de forma rápida y clara.
                 </p>
             </div>
             <div className={style.questions}>
