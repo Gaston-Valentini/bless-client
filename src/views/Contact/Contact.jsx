@@ -1,5 +1,5 @@
 import ViewHeader from "../../components/ViewHeader/ViewHeader";
-import headerBackground from "../../assets/images/contact-header.jpg";
+import headerBackground from "../../assets/images/headers/contact-header.jpg";
 import ContactForm from "../../sections/ContactForm/ContactForm";
 import Map from "../../sections/Map/Map";
 

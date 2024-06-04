@@ -1,5 +1,5 @@
 import style from "./Footer.module.css";
-import logo from "../../assets/images/logo-white.png";
+import logo from "../../assets/images/logos/logo-white.png";
 import { FaPhoneAlt, FaClock, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";

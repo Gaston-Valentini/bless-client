@@ -1,8 +1,8 @@
 import style from "./Gallery.module.css";
-import image1 from "../../assets/images/gallery-1.jpg";
-import image2 from "../../assets/images/gallery-2.jpg";
-import image3 from "../../assets/images/gallery-3.jpg";
-import image4 from "../../assets/images/free-valoration.jpg";
+import image1 from "../../assets/images/gallery/gallery-1.jpg";
+import image2 from "../../assets/images/gallery/gallery-2.jpg";
+import image3 from "../../assets/images/gallery/gallery-3.jpg";
+import image4 from "../../assets/images/gallery/gallery-4.jpg";
 
 export default function Gallery() {
     return (

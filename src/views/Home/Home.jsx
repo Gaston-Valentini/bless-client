@@ -3,7 +3,7 @@ import About from "../../sections/About/About";
 import Services from "../../sections/Services/Services";
 import FreeValoration from "../../sections/FreeValoration/FreeValoration";
 import Values from "../../sections/Values/Values";
-import Gallery from "../../sections/Galery/Gallery";
+import Gallery from "../../sections/Gallery/Gallery";
 
 export default function HomeView() {
     return (

@@ -1,5 +1,5 @@
 import style from "./About.module.css";
-import image from "../../assets/images/tamara.jpg";
+import image from "../../assets/images/varios/tamara.jpg";
 import { FaInstagram } from "react-icons/fa";
 
 export default function About() {

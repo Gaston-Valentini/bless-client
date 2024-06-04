@@ -1,8 +1,8 @@
 import style from "./Services.module.css";
-import russianLips from "../../assets/images/russian-lips-icon.png";
-import antiWrinkles from "../../assets/images/anti-wrinkle-treatment-icon.png";
-import biorepeel from "../../assets/images/biorepeel-icon.png";
-import prp from "../../assets/images/prp-icon.png";
+import russianLips from "../../assets/images/treatments-icons/russian-lips-icon.png";
+import antiWrinkles from "../../assets/images/treatments-icons/anti-wrinkle-treatment-icon.png";
+import biorepeel from "../../assets/images/treatments-icons/biorepeel-icon.png";
+import prp from "../../assets/images/treatments-icons/prp-icon.png";
 import { Link } from "react-router-dom";
 
 export default function Services() {

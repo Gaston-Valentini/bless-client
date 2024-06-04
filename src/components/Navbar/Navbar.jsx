@@ -1,5 +1,5 @@
 import style from "./Navbar.module.css";
-import logo from "../../assets/images/logo-rose.png";
+import logo from "../../assets/images/logos/logo-rose.png";
 import { FaBars } from "react-icons/fa";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";

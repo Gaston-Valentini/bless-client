@@ -2,7 +2,7 @@
     padding-top: 60px;
     height: 900px;
     max-height: calc(100vh - 60px);
-    background-image: url("../../assets/images/home-header.jpg");
+    background-image: url("../../assets/images/headers/home-header.jpg");
     background-size: cover;
 }
 
