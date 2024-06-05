@@ -37,6 +37,11 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li className={style.linksLink}>
+                        <Link to={"/before-after"} onClick={switchOpenAndNavigate}>
+                            Antes y después
+                        </Link>
+                    </li>
+                    <li className={style.linksLink}>
                         <Link to={"/questions"} onClick={switchOpenAndNavigate}>
                             Preguntas frecuentes
                         </Link>

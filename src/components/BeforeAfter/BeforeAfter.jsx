@@ -1,7 +1,7 @@
 import { useState } from "react";
 import style from "./BeforeAfter.module.css";
 
-export default function BeforeAfter({ before, after }) {
+export default function BeforeAfter({ before, after, name }) {
     const [opacity, setOpacity] = useState(0);
 
     const onBar = (e) => {
@@ -10,6 +10,7 @@ export default function BeforeAfter({ before, after }) {
 
     return (
         <section className={style.container}>
+            <p className={style.name}>{name}</p>
             <div className={style.images}>
                 <div className={style.imagesBefore}>
                     <img src={before} />
@@ -19,9 +20,9 @@ export default function BeforeAfter({ before, after }) {
                 </div>
             </div>
             <div className={style.bar}>
-                <div className={style.barText}>Antes</div>
+                <p className={style.barText}>Antes</p>
                 <input type="range" step={1} min={0} max={1000} defaultValue={0} onChange={onBar} />
-                <div className={style.barText}>Después</div>
+                <p className={style.barText}>Después</p>
             </div>
         </section>
     );

@@ -58,16 +58,16 @@
 
 @media (max-width: 991px) {
     .container {
-        padding: 50px 0;
+        padding-top: 50px;
     }
     .gallery {
-        grid-template-rows: 175px 175px;
+        grid-template-rows: 175px;
     }
 }
 
 @media (max-width: 579px) {
     .gallery {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px;
+        grid-template-rows: 150px 150px;
     }
 }

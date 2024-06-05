@@ -32,14 +32,14 @@ export default function Results() {
                 </p>
             </div>
             <div className={style.cards}>
-                <BeforeAfter before={BeforeOne} after={AfterOne} />
-                <BeforeAfter before={BeforeTwo} after={AfterTwo} />
-                <BeforeAfter before={BeforeThree} after={AfterThree} />
-                <BeforeAfter before={BeforeFour} after={AfterFour} />
-                <BeforeAfter before={BeforeFive} after={AfterFive} />
-                <BeforeAfter before={BeforeSix} after={AfterSix} />
-                <BeforeAfter before={BeforeSeven} after={AfterSeven} />
-                <BeforeAfter before={BeforeEight} after={AfterEight} />
+                <BeforeAfter before={BeforeOne} after={AfterOne} name={"Russian lips"} />
+                <BeforeAfter before={BeforeTwo} after={AfterTwo} name={"Mentón y Labios"} />
+                <BeforeAfter before={BeforeThree} after={AfterThree} name={"Rinomodelación"} />
+                <BeforeAfter before={BeforeFour} after={AfterFour} name={"Pómulos"} />
+                <BeforeAfter before={BeforeFive} after={AfterFive} name={"Rinolips"} />
+                <BeforeAfter before={BeforeSix} after={AfterSix} name={"Rinolips"} />
+                <BeforeAfter before={BeforeSeven} after={AfterSeven} name={"Relleno de ojeras"} />
+                <BeforeAfter before={BeforeEight} after={AfterEight} name={"Russian lips"} />
             </div>
         </section>
     );
