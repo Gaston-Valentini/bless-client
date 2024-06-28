@@ -4,8 +4,6 @@ import BeforeOne from "../../assets/images/before-after/before-after-one.jpg";
 import AfterOne from "../../assets/images/before-after/before-after-two.jpg";
 import BeforeTwo from "../../assets/images/before-after/before-after-three.jpg";
 import AfterTwo from "../../assets/images/before-after/before-after-four.jpg";
-import BeforeThree from "../../assets/images/before-after/before-after-five.jpg";
-import AfterThree from "../../assets/images/before-after/before-after-six.jpg";
 import BeforeFour from "../../assets/images/before-after/before-after-seven.jpg";
 import AfterFour from "../../assets/images/before-after/before-after-eight.jpg";
 import BeforeFive from "../../assets/images/before-after/before-after-nine.jpg";
@@ -44,7 +42,6 @@ export default function Results() {
             <div className={style.cards}>
                 <BeforeAfter before={BeforeOne} after={AfterOne} name={"Russian lips"} />
                 <BeforeAfter before={BeforeTwo} after={AfterTwo} name={"Mentón y labios"} />
-                <BeforeAfter before={BeforeThree} after={AfterThree} name={"Rinomodelación"} />
                 <BeforeAfter before={BeforeFour} after={AfterFour} name={"Pómulos"} />
                 <BeforeAfter before={BeforeFive} after={AfterFive} name={"Rinolips"} />
                 <BeforeAfter before={BeforeSix} after={AfterSix} name={"Rinolips"} />
