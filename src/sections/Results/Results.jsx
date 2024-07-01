@@ -43,7 +43,7 @@ export default function Results() {
                 <BeforeAfter before={BeforeOne} after={AfterOne} name={"Russian lips"} />
                 <BeforeAfter before={BeforeTwo} after={AfterTwo} name={"Mentón y labios"} />
                 <BeforeAfter before={BeforeFour} after={AfterFour} name={"Pómulos"} />
-                <BeforeAfter before={BeforeFive} after={AfterFive} name={"Rinolips"} />
+                <BeforeAfter before={BeforeFive} after={AfterFive} name={"Russian lips"} />
                 <BeforeAfter before={BeforeSix} after={AfterSix} name={"Rinolips"} />
                 <BeforeAfter before={BeforeSeven} after={AfterSeven} name={"Relleno de ojeras"} />
                 <BeforeAfter before={BeforeEight} after={AfterEight} name={"Russian lips"} />
